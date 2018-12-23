@@ -1,0 +1,62 @@
+
+section{
+    margin-left: 29%;
+    margin-right: 29%;
+    font-family: "Proxima Nova";
+
+    border: 1px solid grey; 
+    padding: 0px;
+}
+
+
+body {
+    background-color: white;
+}
+
+img {
+    width: 600px;     
+    height: 600px;
+  }
+
+
+.slider img {
+    display: none;
+}
+
+.slider img.active {
+    display: block;
+    border: 2px solid white;
+}
+
+
+.table {
+    display:table;
+    width:80%;
+}
+.tr {
+    display:table-row;
+}
+.d1 {
+    display:table-cell;
+    text-align:left;
+
+    width:25%;
+}
+.d2 {
+    display:table-cell;
+    text-align:center;
+}
+
+
+#input_user{
+    height: 50px;     
+}
+
+
+
+
+
+
+
+
+

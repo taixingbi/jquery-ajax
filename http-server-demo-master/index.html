@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"> </script>
+    <script src="slideshow.js"> </script>
+    <script src="faheart.js"> </script>
+
+  </head>
+
+  <body>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>    
+
+    <section>
+      <div class="slider">
+          <img src="imgs/1.jpg" class="active">
+          <img src="imgs/2.jpg">
+      </div>
+
+
+      <div class="table">
+        <div class="tr">
+
+          <div class='d1'>
+              <span onclick="faHeart()" id= "fa_font_like">
+                <i class="fa fa-heart-o" style="font-size:24px"></i> 
+              </span>
+    
+              <span>
+                <i class="fa fa-share" style="font-size:24px"></i> 
+              </span>
+          </div>
+
+          <div class='d2' id= "previous_next">
+              <input type="button" class="btn" onclick="changeSlide('previous')" value="Previous">
+              <input type="button" class="btn" onclick="changeSlide('next')" value="Next">
+          </div>
+
+        </div>
+      </div>
+      
+      <p id="get_likes" > 12 likes </p>
+      
+
+      <div>
+          <div id="get_comments">  </div>
+          <input type="text" placeholder="add a comment..." size="84" id= "input_comment">
+      </div>
+
+    </section>
+
+    <script src="comments.js"></script>
+  </body>
+
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+
+</html>
+
